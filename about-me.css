@@ -1,0 +1,74 @@
+body{
+	background-image: linear-gradient(to bottom, #3ff293,white)
+}
+#title{
+	text-align: center;
+}
+#colors{
+	border: solid black 5px;
+	padding: 10px;
+	width: 150px;
+	font-size: 14pt;
+	float: right;
+}
+#tect{
+	border: solid black 5px;
+	padding: 10px;
+	width: 300px;
+	font-size: 14pt;
+	float: right;
+	
+}
+#wow{
+	background-image: : solid black;
+}
+#o{
+	float: right;
+}
+#w{
+	box-shadow: 0px 0px 30px 30px black;
+}
+#p{
+	font-size: 16pt;
+	letter-spacing: 3px;
+	text-align: justify;
+	box-shadow: 0px 0px 30px 30px black;
+	background-image: linear-gradient(to right,#3ff293,white)
+}
+#q{
+	font-size: 16pt;
+	letter-spacing: 3px;
+	text-align: justify;
+	box-shadow: 0px 0px 30px 30px black;
+	background-image: linear-gradient(to right, #3ff293,white)
+}
+#i{
+	float: right;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: #3ff293;
+  height: 1500px; 
+  position: fixed; 
+  overflow: auto; 
+}
+li a {
+  display: block;
+  color: black;
+  font-size: 12pt;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: black;
+  color: #3ff293;
+}
+
+li a:hover:not(.active) {
+  background-color: black;
+  color: #3ff293;
+}
